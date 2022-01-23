@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('img/background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: beige;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: beige;
+}
+
+
+#header {
+    text-align: center;
+}
+
+#title h1 {
+    font-size: 120px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 40px;
+    margin-right: 0;
+    transition: letter-spacing 1s, margin-right 1s;
+    width: 1400px;
+    text-align: center;
+}
+
+#title h1:hover {
+    cursor: pointer;
+    letter-spacing: 80px;
+    margin-right: -0.5em;
+}
+
+.letterspacing {
+    letter-spacing: 80px !important;
+    margin-right: -0.5em !important;
+}
+
+#menu {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    height: 94px;
+}
+
+.menuwindow {
+    float: left;
+    width: 25%;
+    background-color: #404040;
+    padding: 30px 20px;
+}
+
+.menuwindow:hover {
+    background-color: #202020;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #202020;
+}
+
+
+#main {
+    padding-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+    background-color: beige;
+}
+
+#maintytul h2 {
+    font-size: 52px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#photoszach {
+    height: 500px;
+    width: 500px;
+    float: left;
+}
+
+#photoszach img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#article {
+    float: left;
+    width: 700px;
+    margin-left: 75px;
+    font-size: 22px;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 50px;
+}
+
+footer {
+    height: 50px;
+}
+
+#photo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: beige;
+    text-align: center;
+}
+
+#photo:hover {
+    cursor: pointer;
+}
+
+#photo img {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#fischer {
+    width: 450px;
+    height: 600px; 
+    float: left;
+}
+
+#fischer img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#tal {
+    width: 450px;
+    height: 600px; 
+    float: left;
+}
+
+#tal img {
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#article1 {
+    float: left;
+    width: 700px;
+    margin-right: 75px;
+    font-size: 22px;
+}
+
+#maintytul h2 {
+    font-size: 52px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#zasady {
+    font-size: 20px;
+}
+
+#zasady p {
+    margin-right: 40px;
+}
+
+#zdjecia {
+    margin-top: 50px;
+}
+
+.chessphoto {
+    width: 380px;
+    height: 240px;
+    background-color: blue;
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.chessphoto img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.chessphotosmall {
+    width: 180px;
+    height: 240px;
+    background-color: blue;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.chessphotosmall img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+#firstphoto {
+    margin-left: 60px !important;
+}
+
+#maintytul1 h2 {
+    font-size: 52px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.gambit {
+    width: 500px;
+    height: 300px; 
+    float: left;
+    margin-left: 50px;
+}
+
+.gambit img {
+    width: 100%;
+    height: 100%;
+}
+
+#part1 {
+    float: left;
+    width: 600px;
+}
